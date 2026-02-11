@@ -9,19 +9,10 @@ def _try_convert(val):
         except ValueError:
             return val
 
-def BasicTest():
-    print("Welcome to the Basic Test Program")
-    name = _try_convert(input())
-    print(str("Hello, ") + str(name))
-    age = _try_convert(input())
-    if age >= 18:
-        print("You are an adult")
-    else:
-        print("You are a minor")
-    sum = 0
-    for i in range(1, (5) + 1):
-        sum = sum + i
-    print(str("Sum of 1 to 5 is ") + str(sum))
+def Helper(x):
+    return x * 2
+def Main():
+    print(Helper(3))
 
 if __name__ == '__main__':
-    BasicTest()
+    Main()
