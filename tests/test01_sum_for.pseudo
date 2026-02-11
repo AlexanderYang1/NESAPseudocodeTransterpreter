@@ -1,0 +1,7 @@
+BEGIN Main
+  total = 0
+  FOR i = 1 TO 5
+    total = total + i
+  NEXT
+  DISPLAY total
+END Main

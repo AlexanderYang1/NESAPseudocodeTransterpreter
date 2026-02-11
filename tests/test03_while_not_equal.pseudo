@@ -1,0 +1,7 @@
+BEGIN Main
+  x = 0
+  WHILE x <> 3
+    x = x + 1
+  ENDWHILE
+  DISPLAY x
+END Main

@@ -1,0 +1,8 @@
+BEGIN Main
+  x = 2
+  CASEWHERE x is
+    1 : DISPLAY "one"
+    2 : DISPLAY "two"
+    Otherwise : DISPLAY "other"
+  ENDCASE
+END Main
