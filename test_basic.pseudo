@@ -1,0 +1,21 @@
+BEGIN BasicTest
+  DISPLAY "Welcome to the Basic Test Program"
+  GET name
+  DISPLAY "Hello, " + name
+
+  GET age
+
+  IF age >= 18 THEN
+    DISPLAY "You are an adult"
+  ELSE
+    DISPLAY "You are a minor"
+  ENDIF
+
+  sum = 0
+  FOR i = 1 TO 5
+    sum = sum + i
+  NEXT
+
+  DISPLAY "Sum of 1 to 5 is " + sum
+
+END BasicTest
