@@ -1,0 +1,7 @@
+BEGIN Main
+  x = 0
+  REPEAT
+    x = x + 1
+  UNTIL x = 4
+  DISPLAY x
+END Main

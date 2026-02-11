@@ -1,0 +1,6 @@
+BEGIN Main
+  x = 1
+  CASEWHERE x is
+    1 : DISPLAY "one"
+  ENDCASE
+END Main

@@ -1,0 +1,9 @@
+BEGIN Main
+  a = TRUE
+  b = FALSE
+  IF a AND NOT b THEN
+    DISPLAY "ok"
+  ELSE
+    DISPLAY "bad"
+  ENDIF
+END Main

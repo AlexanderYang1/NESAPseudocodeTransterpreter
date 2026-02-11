@@ -1,0 +1,7 @@
+BEGIN Helper(x)
+  RETURN x * 2
+END Helper
+
+BEGIN Main
+  DISPLAY Helper(3)
+END Main

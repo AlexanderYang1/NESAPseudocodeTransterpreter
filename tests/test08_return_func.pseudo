@@ -1,0 +1,8 @@
+BEGIN AddOne(n)
+  RETURN n + 1
+END AddOne
+
+BEGIN Main
+  x = AddOne(4)
+  DISPLAY x
+END Main

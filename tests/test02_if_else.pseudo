@@ -1,0 +1,8 @@
+BEGIN Main
+  x = 10
+  IF x > 5 THEN
+    DISPLAY "big"
+  ELSE
+    DISPLAY "small"
+  ENDIF
+END Main
